@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <iq:application id="6c13da9468dc4350ad1d0b9c0a5aa123"
+                    type="watchface"
+                    name="@Strings.AppName"
+                    entry="PixelTimeApp"
+                    launcherIcon="@Drawables.LauncherIcon"
+                    minApiLevel="3.2.0"
+                    version="1.0.1">
+        <iq:products>
+            <!-- tactix 8 Solar (51 mm, MIP) usa el mismo ID que el fenix 8 Solar 51 mm -->
+            <iq:product id="fenix8solar51mm"/>
+        </iq:products>
+        <iq:permissions/>
+        <iq:languages>
+            <iq:language>spa</iq:language>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>
