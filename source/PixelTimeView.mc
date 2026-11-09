@@ -14,8 +14,9 @@ class PixelTimeView extends WatchUi.WatchFace {
     // ---- Ajustes ---------------------------------------------------------
     // Tamano de la hora por estilo: 1.0 = toca el borde de la pantalla,
     // valores menores dejan margen.
-    const SIZE_RATIO_ROUND = 0.88;
-    const SIZE_RATIO_ANGULAR = 0.88;
+    // Con 280 px: redondeado 0.93 -> 60 px de alto, anguloso 0.89 -> 70 px.
+    const SIZE_RATIO_ROUND = 0.93;
+    const SIZE_RATIO_ANGULAR = 0.89;
     // Mostrar los dos puntos entre horas y minutos.
     const SHOW_COLON = true;
     // Bloques de separacion entre caracteres de la hora, por estilo.
